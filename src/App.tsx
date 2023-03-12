@@ -3,7 +3,7 @@ import React, { type ReactElement } from 'react';
 function App(): ReactElement {
   return (
     <div id="App">
-      <h1>Hello world!</h1>
+      <h1 data-testid="title">Hello world!</h1>
     </div>
   );
 }
